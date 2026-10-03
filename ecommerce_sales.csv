@@ -1,0 +1,17 @@
+OrderID,Date,Product,Category,Quantity,Price
+1001,2026-01-02,Laptop,Electronics,2,50000
+1002,2026-01-03,Mouse,Accessories,5,800
+1003,2026-01-05,Keyboard,Accessories,3,1500
+1004,2026-01-07,Laptop,Electronics,1,50000
+1005,2026-01-10,Headphones,Audio,4,2500
+1006,2026-01-12,Phone,Electronics,2,30000
+1007,2026-01-15,Mouse,Accessories,10,800
+1008,2026-01-18,Keyboard,Accessories,5,1500
+1009,2026-01-20,Headphones,Audio,3,2500
+1010,2026-01-22,Phone,Electronics,1,30000
+1002,2026-01-03,Mouse,Accessories,5,800
+1011,2026-02-02,Laptop,Electronics,1,50000
+1012,2026-02-05,Phone,Electronics,3,30000
+1013,2026-02-08,Mouse,Accessories,7,800
+1014,2026-02-12,Headphones,Audio,2,2500
+1015,2026-02-15,Keyboard,Accessories,4,1500
