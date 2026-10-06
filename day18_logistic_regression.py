@@ -65,7 +65,7 @@ print("\nPrediction Probabilities:")
 print(probabilities)
 
 
-
+# 8. Calculate accuracy
 accuracy = accuracy_score(y_test, predictions)
 
 print("\nModel Accuracy:")
