@@ -61,6 +61,7 @@ print(y_test.values)
 # 7. Get prediction probabilities
 probabilities = model.predict_proba(X_test)
 
+
 print("\nPrediction Probabilities:")
 print(probabilities)
 
