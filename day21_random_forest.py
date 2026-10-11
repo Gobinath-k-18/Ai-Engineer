@@ -29,3 +29,28 @@ print("\nTraining features shape:", X_train.shape)
 print("Testing features shape:", X_test.shape)
 print("Training labels shape:", y_train.shape)
 print("Testing labels shape:", y_test.shape)
+
+
+from sklearn.ensemble import RandomForestClassifier
+
+rf_model = RandomForestClassifier(
+    n_estimators=100,
+    random_state=42
+)
+
+rf_model.fit(X_train, y_train)
+
+print("Random Forest trained successfully!")
+
+
+
+from sklearn.tree import DecisionTreeClassifier
+
+dt_model = DecisionTreeClassifier(
+    max_depth=2,
+    random_state=42
+)
+
+dt_model.fit(X_train, y_train)
+
+print("Decision Tree trained successfully!")
