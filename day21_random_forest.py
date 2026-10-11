@@ -54,3 +54,32 @@ dt_model = DecisionTreeClassifier(
 dt_model.fit(X_train, y_train)
 
 print("Decision Tree trained successfully!")
+
+
+from sklearn.metrics import accuracy_score
+
+# Random Forest predictions
+rf_train_pred = rf_model.predict(X_train)
+rf_test_pred = rf_model.predict(X_test)
+
+# Decision Tree predictions
+dt_train_pred = dt_model.predict(X_train)
+dt_test_pred = dt_model.predict(X_test)
+
+print("\n--- Random Forest ---")
+print("Training accuracy:", accuracy_score(y_train, rf_train_pred))
+print("Test accuracy:", accuracy_score(y_test, rf_test_pred))
+
+print("\n--- Decision Tree ---")
+print("Training accuracy:", accuracy_score(y_train, dt_train_pred))
+print("Test accuracy:", accuracy_score(y_test, dt_test_pred))
+
+
+
+importance = pd.Series(
+    rf_model.feature_importances_,
+    index=X.columns
+).sort_values(ascending=False)
+
+print("\nRandom Forest Feature Importance:")
+print(importance)
