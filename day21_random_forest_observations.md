@@ -38,3 +38,5 @@ The feature with the higher importance value contributed more to the model's tre
 - `feature_importances_` provides feature importance scores.
 - Training accuracy and test accuracy measure performance on different datasets.
 
+## 6. Conclusion
+Both models achieved 100% accuracy on this small experiment. More data and a more reliable evaluation are needed to compare their generalization performance fairly.
