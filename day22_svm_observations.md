@@ -43,4 +43,4 @@ SVM can be less convenient on very large datasets and may require careful tuning
 - The purpose of kernels.
 - The basic roles of C and gamma.
 - How to train SVM with and without StandardScaler.
-- Why scaling is important for distance-based kernels.
+- Why scaling is important for distance-based kernels
